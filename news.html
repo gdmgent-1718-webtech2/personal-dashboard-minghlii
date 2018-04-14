@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Dashboard</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">    
 </head>
 <body>
@@ -11,21 +11,19 @@
         <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="./index.html">Home</a>
+                <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./weather.html">Weather-API</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./news.html">News</a>
+              <a class="nav-link active" href="./news.html">News</a>
             </li>
           </ul>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">This is the home page for all API calls</h5>
-          <p class="card-text">Use the navigation to go to an API call</p>
+        <div class="card-body" id="news-card">
         </div>
       </div>
-      <script src="../assets/js/main.js" ></script>
+      <script src="./assets/js/main.js" ></script>
 </body>
 </html>
